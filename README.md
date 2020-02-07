@@ -6,16 +6,19 @@
 ## Features
 
 * Outstanding navigation performance out of the box
-* Position Hold, Altitude Hold, Return To Home and Missions
-* Excellent support for fixed wing UAVs: airplanes, flying wings 
+* Position Hold, Altitude Hold, Return To Home, Cruise and Missions
+* Excellent support for fixed wing UAVs: Airplanes, flying wings and other exoctic aircrafts
+* Excellent support for multirotor UAVs: Quadcopters, Hexacopters, Tricopters, Octacopters, etc
 * Pitot tube support
 * Rangefinder support (sonar and laser)
-* Oneshot and Multishot ESC support.
+* PWM, Oneshot, Multishot and DShot ESC support.
 * Blackbox flight recorder logging (to onboard flash or external SD card).
-* Lux's new PID (uses float values internally, resistant to looptime variation).
 * Simultaneous Bluetooth configuration and OSD.
+* DShot ESC Telemetry
+* Dynamic Notch Filters
+* RPM Filters
 * LTM Telemetry.
-* Smartport Telemetry.
+* SmartPort Telemetry.
 * RSSI via ADC - Uses ADC to read PWM RSSI signals, tested with FrSky D4R-II and X8R.
 * OLED Displays - Display information on: Battery voltage, profile, rate profile, version, sensors, RC, etc.
 * In-flight manual PID tuning and rate adjustment.
@@ -23,7 +26,6 @@
 * Multiple simultaneous telemetry providers.
 * Configurable serial ports for Serial RX, Telemetry, MSP, GPS - Use most devices on any port, softserial too.
 * Multi-color RGB LED Strip support (each LED can be a different color using variable length WS2811 Addressable RGB strips - use for Orientation Indicators, Low Battery Warning, Flight Mode Status, etc)
-* PIDs from CF/BF can be used in INAV, no need to retune for INAV
 * And many more!
 
 For a list of features, changes and some discussion please review consult the releases [page](https://github.com/iNavFlight/inav/releases) and the documentation.
